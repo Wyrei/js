@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+}
+#container{
+    font-size: 40px;
+    background-color: red;
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px gray;
+}
+#myinteraction{
+    padding: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+nav button {
+    background-color: yellow;
+    color: orange;
+    font-size: 18px;
+    padding: 10px;
+}
+#knopnoord, #knopzuid{
+    display: block;
+    width: 300px;
+}
+
+#knopwest, #knopoost{
+    display: inline-block;
+    width: 150px;
+}
